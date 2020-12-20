@@ -3,6 +3,42 @@
     margin: 0;
     padding: 0;
 }
-html, body {
+body {
     width: 100%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1%;
+    margin-top: 30px;
+}
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn {
+    width: 120px;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: rgb(201, 200, 200);
+    cursor: pointer;
+    border-radius: 2%;
+}
+.btn:hover {
+    background: rgb(114, 114, 114);
+}
+.btn-eq {
+    background:rgba(255, 0, 0, 0.774);
+}
+.btn-eq:hover {
+    background:rgb(255, 0, 0);
 }
